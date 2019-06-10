@@ -1,0 +1,28 @@
+{
+  "name": "polymermpa",
+  "version": "1.0.0",
+  "description": "polymer multi page application setup",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@polymer/app-layout": "^3.0.2",
+    "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-input": "^3.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --port 3000 --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
