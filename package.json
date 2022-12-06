@@ -4,7 +4,7 @@
   "description": "polymer multi page application setup",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@polymer/app-layout": "^3.0.2",
